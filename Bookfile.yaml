@@ -1,0 +1,8 @@
+configVersion: v1alpha1
+branchConfigs:
+- pattern: env/(\w+)
+  appConfigs:
+    kargo-demo:
+      configManagement:
+        kustomize:  
+          path: env/${1}
