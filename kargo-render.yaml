@@ -1,0 +1,10 @@
+configVersion: v1alpha1
+branchConfigs:
+- pattern: \d+/stage/(\w+)
+  appConfigs:
+    kargo-demo:
+      configManagement:
+        path: stages/${1}
+        kustomize:  
+  preservedPaths:
+  - README.md
