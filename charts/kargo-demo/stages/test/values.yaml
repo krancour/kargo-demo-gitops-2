@@ -1,2 +1,2 @@
 image:
-  name: nginx:placeholder
+  name: public.ecr.aws/nginx/nginx:placeholder
