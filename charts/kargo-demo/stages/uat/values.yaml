@@ -1,0 +1,2 @@
+image:
+  name: public.ecr.aws/nginx/nginx:1.27.0
