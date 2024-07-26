@@ -4,7 +4,9 @@ branchConfigs:
   appConfigs:
     kargo-demo:
       configManagement:
-        path: stages/${1}
-        kustomize:  
+        path: charts/kargo-demo
+        helm:
+          valueFiles:
+          - charts/kargo-demo/stages/${1}/values.yaml
   preservedPaths:
   - README.md
