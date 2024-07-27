@@ -7,6 +7,6 @@ branchConfigs:
         path: charts/kargo-demo
         helm:
           valueFiles:
-          - charts/kargo-demo/stages/${1}/values.yaml
+          - stages/${1}/values.yaml
   preservedPaths:
   - README.md
