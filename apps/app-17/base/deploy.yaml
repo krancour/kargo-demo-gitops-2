@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-17
+  name: kargo-demo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app-17
+      app: kargo-demo
   template:
     metadata:
       labels:
-        app: app-17
+        app: kargo-demo
     spec:
       containers:
       - name: nginx 

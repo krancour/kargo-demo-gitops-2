@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app-13
+  name: kargo-demo
 spec:
   selector:
-    app: app-13
+    app: kargo-demo
   ports:
   - protocol: TCP
     port: 3000
