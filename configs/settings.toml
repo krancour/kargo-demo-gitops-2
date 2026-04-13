@@ -1,0 +1,10 @@
+[package]
+name = "kargo-demo-21"
+version = "0.0.0"
+
+[image]
+repo = "public.ecr.aws/nginx/nginx"
+tag = "0.0.0"
+
+[labels]
+"example.com/version" = "0.0.0"
