@@ -3,4 +3,4 @@ nginx:
     tag: 1.31.0
 busybox:
   image:
-    tag: placeholder
+    tag: 1.37.0
