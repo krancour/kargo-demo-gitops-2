@@ -1,0 +1,6 @@
+nginx:
+  image:
+    tag: placeholder
+busybox:
+  image:
+    tag: placeholder
