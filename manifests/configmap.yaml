@@ -4,4 +4,3 @@ metadata:
   name: demo-config
 data:
   greeting: hello
-  editedAt: "2026-07-21T19:14Z"
