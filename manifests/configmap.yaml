@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: demo-config
 data:
-  greeting: We come in peace, for all mankind. Season 5!
+  greeting: hello
+  editedAt: "2026-07-21T19:14Z"
