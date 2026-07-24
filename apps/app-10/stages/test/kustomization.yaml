@@ -4,4 +4,4 @@ resources:
 - ../../base
 images:
 - name: public.ecr.aws/nginx/nginx
-  newTag: 1.29.8
+  newTag: 1.31.3
