@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: public.ecr.aws/nginx/nginx:1.31.3
+        image: public.ecr.aws/nginx/nginx:1.31.6
         imagePullPolicy: IfNotPresent
         resources:
           {}
